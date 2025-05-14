@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t = 0; cin >> t;
+    while(t--) {
+        long int candy; cin >> candy;
+        cout << (candy - ((candy/2) + 1)) << endl;
+    }
+    return 0;
+}
