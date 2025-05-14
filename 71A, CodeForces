@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int n; cin >> n;
+    while(n--) {
+        string check; cin >> check;
+        int size = check.size();
+        int mid = size - 2;
+        if(size > 10) {
+            cout << check[0] + to_string(mid) + check[size - 1] << endl;
+        }
+        else cout << check << endl;
+    }
+    return 0;
+}
